@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD app</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container bg">
+        <div class="row mt-3">
+            <div class="col-5">
+
+                <button class="btn btn-success p-2 btn-lg" id="create">Create user</button>
+
+                <form class="form mt-2 border border-success flex-column hide" id="form">
+                    <div class="mb-3 p-2">
+                      <label for="name" class="form-label ps-2">Name:</label>
+                      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3 p-2">
+                      <label for="age" class="form-label ps-2">Age:</label>
+                      <input type="number" name="age" id="age" class="form-control" placeholder="Enter your Age" min="0">
+                    </div>
+                    <div class="mb-3 p-2">
+                      <label for="job" class="form-label ps-2">Job:</label>
+                      <input type="text" name="job" id="job" class="form-control" placeholder="Enter your Job">
+                    </div>
+                    <div class="mb-3 p-2 align-content-center">
+                      <button class="btn btn-outline-success" id="confirn-user">Confirn</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-6">
+                <div class="list border border-success h-50" id="list">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type='module' src="js/data.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

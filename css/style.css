@@ -1,0 +1,17 @@
+
+.list {
+    min-height: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+.no-users {
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px;
+}

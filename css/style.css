@@ -1,17 +1,60 @@
 
 .list {
     min-height: 100%;
+    
 }
 
-.hide {
-    display: none;
+.wrong {
+    border-color: red; 
 }
 
-
+.correct {
+    border-color: green; 
+}
 
 .no-users {
     font-size: 18px;
     text-decoration: underline;
     text-align: center;
     padding: 10px;
+}
+
+.list-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.list-item-btns {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.list-item-btns button {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.info-in-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+.info-in-list p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.info-in-list p button {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.hide {
+    display: none;
 }
